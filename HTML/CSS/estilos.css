@@ -1,0 +1,48 @@
+/* *{
+	margin: 0;
+	padding: 0;
+
+}
+h1{
+	color:red;
+	font-size: 50px;
+}
+.yellow {
+	font-size: 20px;
+	color:green;
+}
+body {
+	font-size:16px;
+}
+div{
+	font-size: 20px;
+	background: lightblue ;
+	color:darkblue;
+	width: 50%;
+}
+div p {
+	font-size: 2em;
+}
+h1{
+	color:rgba(49,163,239,0.5);
+}
+div{
+	width: 500px
+}
+div{
+	background: lightblue;
+	margin: 20px 50px;
+	padding: 10px;
+	border: 1px solid black;
+}
+body{
+	background: url(../Images/LosSimpsons.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	color:white;
+}
+div{
+	background: url(../Images/LosSimpsons.jpg);
+	background-position: center 0;
+	color: #fff;
+}*/

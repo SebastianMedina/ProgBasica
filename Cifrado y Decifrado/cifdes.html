@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Cifrado y Descifrador de Textos</title>
+  </head>
+  <body>
+    <style>
+    #progress_bar {
+      margin: 10px 0;
+      padding: 3px;
+      border: 1px solid #000;
+      font-size: 14px;
+      clear: both;
+      opacity: 0;
+      -moz-transition: opacity 1s linear;
+      -o-transition: opacity 1s linear;
+      -webkit-transition: opacity 1s linear;
+    }
+    #progress_bar.loading {
+      opacity: 1.0;
+    }
+    #progress_bar .percent {
+      background-color: #99ccff;
+      height: auto;
+      width: 0;
+    }
+    </style>
+    <h1>Cifrado y Descifrado de archivos de texto</h1>
+    <p>Bienvenido a este programa que te permite cifrar y descifrar archivos
+    de texto.</p>
+    <p><img src="cif.png" width="400" height="400"></p>
+    <p><button onclick="abortRead();">Cancel read</button>
+      <div id="progress_bar"><div class="percent">0%</div></div></p>
+    <p>
+      Selecciona texto a cifrar
+      <input type="file" name="cifrar" id="fileInput"><br>
+      <output id="text"></output>
+      Selecciona texto a descifrar
+      <input type="file" name="descifrar" id="descifrar"><br>
+      <pre id="fileText"></pre>
+    </p>
+    <script src="cifrar.js"></script>
+
+  </body>
+</html>

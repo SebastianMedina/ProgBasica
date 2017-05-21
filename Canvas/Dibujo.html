@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" /><!--utf 8 permite agregar caracteres espaciales (´, ñ)-->
+    <title>Dibujando con canvas</title>
+  </head>
+  <body>
+    <h1>Dibujo con canvas</h1><!--subtitulo-->
+    <p> <!-- Parrafo; realizar salto de linea doble -->
+      Cuantas lineas quieres <br> <!-- <br> salto de linea sencillo-->
+      <input type="text" id="numero_lineas"/><!--Es necesario hacer uso del ID
+                                                para poder trabajarlo en JS-->
+      <input type="button" value="boton" id="botoncito" /><!-- maneja atributos para
+        definir si es caja de texto o un boton "text" para caja de texto (con
+        diseños prederteminados) "button" es para poner un boton, para ponerle
+        un nombre al boton se usa el atributo value="aca va el nombre del
+        boton". -->
+        <!--ID, identificar etiqueta de un elemento que se puede trabajar en JS-->
+    </p>
+    <canvas id="Dibujo" width="300" height="300"></canvas><!--Dibujar en JS-->
+    <p>Asi queda un dibujo con canvas</p>
+    <script src="dibujo.js"></script><!--Todo "script" debe ir dentro del "body"-->
+  </body>
+</html>
